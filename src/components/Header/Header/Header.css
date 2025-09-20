@@ -1,0 +1,56 @@
+
+
+.menu-list{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center; 
+
+}
+.menu-list li{
+list-style: none;
+
+}
+
+.menu-list li:hover{
+    background-color:rgb(255, 89, 23);
+    padding: 10px;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.header div{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center; 
+}
+
+.icons{
+   margin-left: 700px;
+   gap: 20px;
+}
+.icon{
+    background-color:rgb(255, 89, 23);;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.text-p{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10px;
+ border-radius: 10px;
+ background-color:rgb(255, 89, 23);
+}
