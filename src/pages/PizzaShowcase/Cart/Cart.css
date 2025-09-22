@@ -26,10 +26,10 @@
   
   .cart-p {
     display: flex;
-    flex-direction: row;     /* ✅ متن و دکمه کنار هم */
-    align-items: center;     /* ✅ وسط‌چین عمودی */
-    justify-content: space-between; /* فاصله مناسب بین متن و دکمه */
-    width: 100%;             /* کل عرض کارت رو بگیره */
+    flex-direction: row;     
+    align-items: center;     
+    justify-content: space-between; 
+    width: 100%;             
     padding: 10px 15px;
     box-sizing: border-box;
   }
@@ -57,7 +57,7 @@
   }
   
   .cart-p button:hover {
-    background: linear-gradient(135deg, rgb(255, 51, 0), rgb(200, 30, 0)); /* هاور گرادینت تیره‌تر */
+    background: linear-gradient(135deg, rgb(255, 51, 0), rgb(200, 30, 0));
     transform: translateY(-3px) scale(1.05); 
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25); 
   }
@@ -66,9 +66,6 @@
     transform: scale(0.95); 
   }
   
-
-
-
   .price{
     display: flex;
     flex-direction: row-reverse;

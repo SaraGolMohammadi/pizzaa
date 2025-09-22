@@ -51,8 +51,8 @@
   max-width: 500px;
   font-size: 20px;
    font-weight: normal;
-   margin: 0;       /* حذف margin پیش‌فرض h1 */
-   line-height: 1.2; /* فاصله خطوط داخلی h1 */
+   margin: 0;  
+   line-height: 1.2; 
 }
 
 .pizza-description{
@@ -60,6 +60,9 @@
 }
 
 .pizza-price{
-
 font-weight: bold;
+}
+
+.add-to-cart{
+    margin-top: 5px;
 }

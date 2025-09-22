@@ -20,7 +20,7 @@ export default function PizzaShowcase() {
         </h6>
         
         <div className="pizza-action">
-          <button className="add-to-cart-btn"> <AddShoppingCartIcon/>Add to cart </button>
+          <button className="add-to-cart-btn"> <AddShoppingCartIcon/><span className='add-to-cart'>Add to cart </span></button>
           <p className="pizza-price">$8.9</p>
         </div></div>
       </div>
